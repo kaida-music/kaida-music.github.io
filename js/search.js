@@ -69,7 +69,7 @@ class SearchManager {
   }
 
   updatePageTitle(searchWord) {
-    const currentTitle = `${searchWord !== "" ? `${searchWord} - ` : ""}[サイト名]`;
+    const currentTitle = `${searchWord !== "" ? `${searchWord} - ` : ""}かいだのおんがくしつ`;
     document.title = currentTitle;
   }
 
